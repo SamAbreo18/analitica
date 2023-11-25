@@ -5,8 +5,8 @@ import requests
 st.title("Predicción de Suicidios")
 
 # Entrada de año y mes
-year = st.number_input("Ingresa el año:", min_value=2000, max_value=2050, value=2022)
-month = st.number_input("Ingresa el mes:", min_value=1, max_value=12, value=1)
+year = st.number_input("Ingresa el año:", min_value=2023, max_value=2050, value=2023)
+month = st.number_input("Ingresa el mes:", min_value=1, max_value=12, value=11)
 
 # Botón para realizar la predicción
 if st.button("Predecir"):
