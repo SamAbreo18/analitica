@@ -11,7 +11,7 @@ month = st.number_input("Ingresa el mes:", min_value=1, max_value=12, value=11)
 # Botón para realizar la predicción
 if st.button("Predecir"):
     # Hacer la solicitud a la API
-    url = "https://apianalitica-ad6fce607733.herokuapp.com/"  # Ajusta la URL según tu configuración
+    url = "https://apianalitica-3c6e8fb8280e.herokuapp.com/"  # Ajusta la URL según tu configuración
     data = {"year": year, "month": month}
     response = requests.post(url, json=data)
 
